@@ -57,6 +57,7 @@ public class MapGenerater : MonoBehaviour
                     }
                     else if (i == 0)
                     {
+                        tempPos = Vector2.zero;
                         Instantiate(startRoom, tempPos, Quaternion.identity);
                     }
                     else
